@@ -1,0 +1,174 @@
+<style>
+
+<!* {}>
+
+body {
+  background-color: white;
+  box-sizing: border-box;
+  margin: 20px; 
+  padding: 0;
+  font-family: Arial; /*Courier Helvetica*/  
+}
+
+#heading {
+  font-size: 175%;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#bigbox {
+  background-color: white;
+  padding: 0px;
+  height: 100%;
+  margin-top: 40px;
+}
+
+.row {
+  width: 100%;
+  padding: 10px;
+  float: left;
+}
+
+#container {
+  background-color: pink;
+  width: 100%;
+}
+
+#menubox1 {
+  background-color: gray;
+  padding: 0px;
+  border: 1px solid black;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  width: 30%;
+}
+
+#menubox2 {
+  background-color: gray;
+  padding: 0px;
+  border: 1px solid black;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  width: 30%;
+}
+
+#menubox3 {
+  background-color: gray;
+  padding: 0px;
+  border: 1px solid black;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  width: 30%;
+}
+
+#menutitlebox1 {
+  background-color: khaki;
+  border: 1px solid black;
+  width: 30%;
+  float: right;
+  text-align: center;
+  font-weight: bold;
+  font-size: 125%;
+}
+
+#menutitlebox2 {
+  background-color: brown;
+  border: 1px solid black;
+  width: 30%;
+  float: right;
+  text-align: center;
+  font-weight: bold;
+  font-size: 125%;
+}
+
+#menutitlebox3 {
+  background-color: green;
+  border: 1px solid black;
+  width: 30%;
+  float: right;
+  text-align: center;
+  font-weight: bold;
+  font-size: 125%;
+}
+
+<!clear: left;>
+<!clear: both;>
+<!position: relative;>
+<!left: 20px;>
+<!bottom:20px;>
+<!background-color: Tomato;>
+<!overflow: auto;>
+<!padding: 5px;>
+<!display: inline-block;>
+<!vertical-align: top;>
+<!height: 10%;>
+<!float: right;>
+<!position: relative;>
+<!top: 0;>
+<!right: 0;>
+<!margin-right: 10px;>
+
+/** Base Style  **/
+#p1 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#p2 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#p3 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  #p1 {
+    width: 100%;
+  }
+  #p2 {
+    width: 100%;
+  }
+  #p3 {
+    width: 100%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #p1 {
+    width: 50%;
+    float: right;
+  }
+  #p2 {
+    width: 50%;
+    float: right;
+  }
+  #p3 {
+    width: 100%;
+    float: right;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  #p1 {
+    width: 30%;
+    float: right;
+  }
+  #p2 {
+    width: 30%;
+    float: right;
+  }
+  #p3 {
+    width: 30%;
+    float: right;
+  }
+}
+
+</style>
