@@ -1,0 +1,160 @@
+<style>
+
+* {
+  box-sizing: border-box;
+  margin: 20px; 
+  padding: 0;
+  font-family: Arial; /*Courier Helvetica*/  
+}
+
+body {
+  background-color: pink;
+  font-family: Arial;
+}
+
+#heading {
+  font-size: 175%;
+  text-align: center;
+}
+
+#bigbox {
+  background-color: white;
+  padding: 0px;
+  height: 100%;
+  margin-top: 40px;
+}
+
+#container {
+  background-color: white; /* pink */
+  width: 30%;
+  position: relative;
+  <!float: left;>
+  <!margin-right: 10px;>
+}
+
+#menubox1 {
+  background-color: gray;
+  padding: 0px;
+  border: 1px solid black;
+  margin-right: 10px;
+  <!width: 30%;>
+  <!height: 10%;>
+  <!float: right;>
+  <!overflow: auto;>
+  <!position: relative;>
+  <!top: 0;>
+  <!right: 0;>
+}
+
+#menubox2 {
+  background-color: gray;
+  padding: 0px;
+  border: 1px solid black;
+  margin-right: 10px;
+  <!width: 30%;>
+  <!height: 10%;>
+  <!float: right;>
+  <!overflow: auto;>
+  <!position: relative;>
+  <!top: 0;>
+  <!right: 0;>
+}
+
+#menubox3 {
+  background-color: gray;
+  padding: 0px;
+  border: 1px solid black;
+  margin-right: 10px;
+  <!width: 30%;>
+  <!height: 10%;>
+  <!float: right;>
+  <!overflow: auto;>
+  <!position: relative;>
+  <!top: 0;>
+  <!right: 0;>
+}
+
+#menutitlebox1 {
+  background-color: khaki;
+  border: 1px solid black;
+  font-size: 125%;
+  width: 30%;
+  float: right;
+  text-align: center;
+  <!position: relative;>
+  <!left: 20px;>
+  <!bottom:20px;>
+
+  <!overflow: auto;>
+  <!padding: 5px;>
+  <!border: 1px;>
+  <!text-align: center;>
+  <!clear: left;>
+}
+
+#menutitlebox2 {
+  background-color: brown;
+  border: 1px solid black;
+  font-size: 125%;
+  width: 30%;
+  float: right;
+  text-align: center;
+  <!position: relative;>
+  <!left: 20px;>
+  <!bottom:20px;>
+}
+
+#menutitlebox3 {
+  background-color: green;
+  border: 1px solid black;
+  font-size: 125%;
+  width: 30%;
+  float: right;
+  text-align: center;
+  <!position: relative;>
+  <!left: 20px;>
+  <!bottom:20px;>
+}
+
+p1 {
+  <!float: right;>
+  <!padding: 10px;>
+  <!clear: both;>
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  #p1 {
+    width: 80%;
+  }
+  #p2 {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #p1 {
+    width: 50%;
+  }
+  #p2 {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  #p1 {
+    width: 30%;
+  }
+  #p2 {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+
+</style>
