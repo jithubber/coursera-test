@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assignment Solution for Module 2</title>
+</head>
+
+<link rel='stylesheet' href='css\style.css'>
+
+<body>
+
+<section id='heading'>Our Menu</section>
+
+<div class='row'>
+    <div class='col-lg-4 col-md-6 col-sm-12'>
+    	<div id='menubox'>
+    		<div id='menutitlebox1'>Chicken</div>
+        	<p id='p1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    	</div>
+    </div>
+	<div class='col-lg-4 col-md-6 col-sm-12'>
+    	<div id='menubox'>
+    		<div id='menutitlebox2'>Beef</div>
+    		<p id='p1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    	</div>
+    </div>
+	<div class='col-lg-4 col-md-6 col-md-12 col-sm-12'>
+    	<div id='menubox'>
+    		<div id='menutitlebox3'>Sushi</div>
+    		<p id='p1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    	</div>
+    </div>
+</div>
+
+</body>
+</html>
